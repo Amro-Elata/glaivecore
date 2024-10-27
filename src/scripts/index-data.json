@@ -1,0 +1,12 @@
+{
+    "title": "glaivecore",
+    "navItems": [
+        { "text": "Twitter", "href": "https://x.com/glaive" },
+        { "text": "Instagram", "href": "https://www.instagram.com/1glaive/" },
+        { "text": "Youtube", "href": "https://www.youtube.com/@glaive9942" },
+        { "text": "Glaive Hub", "href": "#" },
+        { "text": "Soundcloud", "href": "#" },
+        { "text": "Soundcloud(Ovine Hall)", "href": "#" }
+    ],
+    "bgVideoSrc": "./assets/video/background.mp4"
+}

@@ -1,0 +1,67 @@
+.body{
+    margin: 0;
+    background-color: black;
+}
+
+.headerTitle{
+    font-size: 3.7rem;
+    font-weight: 250;
+    font-family:'Times New Roman';
+    padding-left: 2%;
+    margin-top: 50px;
+}
+
+.navbar{
+    font-style: italic;
+    background-color: rgba(0, 4, 34, 0.3);
+    color: #fff;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    overflow: hidden;
+    margin-top: -20px;
+    padding-bottom: -60px;
+}
+
+.navItemList{
+    font-style: italic;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 5%;
+    font-size:  1.5rem;
+    margin-top: 10px;
+}
+
+.navItemList li {
+    margin-left: 30px ;
+    font-weight: 100;
+}
+
+.navItemList li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5;
+}
+
+.bgVideo { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the full area */
+    z-index: -1; /* Place video behind other content */
+}
+
+.mainContent {
+    
+}
