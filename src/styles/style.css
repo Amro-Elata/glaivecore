@@ -1,6 +1,15 @@
-.body{
-    margin: 0;
-    background-color: black;
+html, body {
+    height: 100%;                     /* Ensure the body takes full height */
+    margin: 0;                        /* Remove default margin */
+    overflow-x: hidden;               /* Prevent horizontal scrolling */
+    box-sizing: border-box;           /* Include padding in width calculations */
+}
+* {
+    box-sizing: inherit;
+}
+.body {
+    display: flex;                    /* Use flexbox for layout */
+    flex-direction: column;           /* Stack items vertically */
 }
 
 .headerTitle{
@@ -53,7 +62,7 @@
 }
 
 .bgVideo { 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,5 +72,60 @@
 }
 
 .mainContent {
-    
+    flex: 1;                         /* Allow this section to grow and push footer down */
+    padding: 80px 20px 60px 20px;    /* Your existing padding */
+    color: #fff;                     /* Ensure text is visible */
+}
+
+
+.imageContainer {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-top: -5%;
+}
+
+
+
+.musicSectionOne {
+    margin-top: -5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+}
+
+.imgOne {
+    display: block;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 10%;
+}
+
+.imgOneDesc {
+    max-width: 75%;
+    margin-top: 20%;
+    background-color: rgba(0, 4, 34, 0.5);
+    font-size: 6.7rem;
+    margin-left: 10%;
+
+}
+
+
+.musicSectionTwo {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.imgTwo {
+    display: block;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 10%;
+}
+
+.imgTwoDesc {
+    max-width: 75%;
+    margin-top: 20%;
+    background-color: rgba(0, 4, 34, 0.5);
+    font-size: 6.7rem;
+    margin-left: 10%;
+
 }

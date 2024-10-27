@@ -45,17 +45,57 @@ document.addEventListener("DOMContentLoaded", () => {
                 bgVideo.src = data.bgVideoSrc;  // Set video source from JSON data
                 bgVideo.autoplay = true;
                 bgVideo.loop = true;
-                bgVideo.muted = true;
+                bgVideo.muted = false;
                 bgVideo.playsInline = true; // For mobile support
-
-                // Add the video element to the main content
                 mainContent.appendChild(bgVideo);
 
+                //section One
+                const sectionOne = document.createElement("div");
+                sectionOne.className = "musicSectionOne";
+                mainContent.appendChild(sectionOne);
+
+                    const imgOneContainer = document.createElement("div");
+                    imgOneContainer.className = "imageContainer";
+                    sectionOne.appendChild(imgOneContainer);
+                    
 
 
-            //define and populate HEADER content elements from data
-            const footerContent = document.getElementById("footer-content");
-                //insert header content here...
+                        const imgOne = document.createElement("img");
+                        imgOne.className = "imgOne";
+                        imgOne.src = data.imgOneSrc;
+                        imgOneContainer.appendChild(imgOne);
+
+                        const imgOneDesc = document.createElement("p");
+                        imgOneDesc.className = "imgOneDesc";
+                        imgOneDesc.textContent = data.imgOneDesc;
+                        imgOneDesc.innerHTML = data.imgOneDesc.replace(/\n/g, "<br>");
+                        imgOneContainer.appendChild(imgOneDesc);
+
+                //section Two
+                const sectionTwo = document.createElement("div");
+                sectionTwo.className = "musicSectionTwo";
+                mainContent.appendChild(sectionTwo);
+
+                    const imgTwoContainer = document.createElement("div");
+                    imgTwoContainer.className = "imageContainer";
+                    sectionTwo.appendChild(imgTwoContainer);
+                    
+
+
+                        const imgTwo = document.createElement("img");
+                        imgTwo.className = "imgTwo";
+                        imgTwo.src = data.imgTwoSrc;
+                        imgTwoContainer.appendChild(imgTwo);
+
+                        const imgTwoDesc = document.createElement("p");
+                        imgTwoDesc.className = "imgTwoDesc";
+                        imgTwoDesc.textContent = data.imgTwoDesc;
+                        imgTwoDesc.innerHTML = data.imgTwoDesc.replace(/\n/g, "<br>");
+                        imgTwoContainer.appendChild(imgTwoDesc);
+
+
+
+
         })
 
         //error handling

@@ -6,7 +6,14 @@
         { "text": "Youtube", "href": "https://www.youtube.com/@glaive9942" },
         { "text": "Glaive Hub", "href": "#" },
         { "text": "Soundcloud", "href": "#" },
-        { "text": "Soundcloud(Ovine Hall)", "href": "#" }
+        { "text": "Soundcloud (Ovine Hall)", "href": "#" }
     ],
-    "bgVideoSrc": "./assets/video/background.mp4"
+    "bgVideoSrc": "./assets/video/background.mp4",
+    "footerDescription": "This is the footer, meow",
+
+    "imgOneSrc": "./assets/mayitneverfalterimg.png",
+    "imgOneDesc": "May It Never Falter",
+
+    "imgTwoSrc": "./assets/abitofamadone.jpg",
+    "imgTwoDesc": "A bit of a mad one"
 }
