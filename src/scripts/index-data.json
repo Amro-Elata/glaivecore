@@ -11,9 +11,17 @@
     "bgVideoSrc": "./assets/video/background.mp4",
     "footerDescription": "This is the footer, meow",
 
+
+    "introTitle": "Are you a twink?",
+
+
+
     "imgOneSrc": "./assets/mayitneverfalterimg.png",
     "imgOneDesc": "May It Never Falter",
 
     "imgTwoSrc": "./assets/abitofamadone.jpg",
-    "imgTwoDesc": "A bit of a mad one"
+    "imgTwoDesc": "A bit of a mad one",
+
+    "imgThreeSrc": "./assets/icsmtidcaa.jpg",
+    "imgThreeDesc": "I care so much that I dont care at all"
 }

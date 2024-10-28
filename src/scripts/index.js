@@ -48,6 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 bgVideo.muted = false;
                 bgVideo.playsInline = true; // For mobile support
                 mainContent.appendChild(bgVideo);
+                
+                //Site introduction Description
+                const introDiv = document.createElement("div");
+                introDiv.className = "introDiv";
+                mainContent.appendChild(introDiv);
+                    
+                    introDivTitle = document.createElement("h1");
+                    introDivTitle.className = "introDivTitle";
+                    introDivTitle.textContent = data.introTitle
+                    introDiv.appendChild(introDivTitle)
 
                 //section One
                 const sectionOne = document.createElement("div");
@@ -92,6 +102,29 @@ document.addEventListener("DOMContentLoaded", () => {
                         imgTwoDesc.textContent = data.imgTwoDesc;
                         imgTwoDesc.innerHTML = data.imgTwoDesc.replace(/\n/g, "<br>");
                         imgTwoContainer.appendChild(imgTwoDesc);
+
+                //section Three
+                const sectionThree = document.createElement("div");
+                sectionThree.className = "musicSectionThree";
+                mainContent.appendChild(sectionThree);
+
+                    const imgThreeContainer = document.createElement("div");
+                    imgThreeContainer.className = "imageContainer";
+                    sectionThree.appendChild(imgThreeContainer);
+                    
+
+
+                        const imgThree = document.createElement("img");
+                        imgThree.className = "imgThree";
+                        imgThree.src = data.imgThreeSrc;
+                        imgThreeContainer.appendChild(imgThree);
+
+                        const imgThreeDesc = document.createElement("p");
+                        imgThreeDesc.className = "imgThreeDesc";
+                        imgThreeDesc.textContent = data.imgThreeDesc;
+                        imgThreeDesc.innerHTML = data.imgThreeDesc.replace(/\n/g, "<br>");
+                        imgThreeContainer.appendChild(imgThreeDesc);
+
 
 
 

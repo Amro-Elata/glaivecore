@@ -99,6 +99,30 @@ html, body {
     color: #fff;                     /* Ensure text is visible */
 }
 
+.introDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers horizontally */
+    position: relative;      /* Needed for vertical centering with top */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers vertically and horizontally */
+    width: 100%;
+    margin-top: 15%;
+}
+
+.introDivTitle {
+    text-align: center;
+    font-family:'Times New Roman';
+    font-style: italic;
+    font-size: 6rem;
+    text-shadow:-3px -1px 0 black,
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;;
+}
+
+
 
 .imageContainer {
     display: flex; /* Use flexbox for layout */
@@ -109,9 +133,8 @@ html, body {
 
 
 .musicSectionOne {
-    margin-top: -5%;
+    margin-top: 40%;
     padding-bottom: 5%;
-    margin-bottom: 0%;
 }
 
 .imgOne {
@@ -127,6 +150,7 @@ html, body {
     background-color: rgba(0, 4, 34, 0.5);
     font-size: 6.7rem;
     margin-left: 10%;
+    text-align: center;
 
 }
 
@@ -149,5 +173,28 @@ html, body {
     background-color: rgba(0, 4, 34, 0.5);
     font-size: 6.7rem;
     margin-left: 10%;
+    text-align: center;
+
+}
+
+.musicSectionThree {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.imgThree {
+    display: block;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 10%;
+}
+
+.imgThreeDesc {
+    max-width: 75%;
+    margin-top: 20%;
+    background-color: rgba(0, 4, 34, 0.5);
+    font-size: 6.7rem;
+    margin-left: 10%;
+    text-align: center;
 
 }
