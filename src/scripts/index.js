@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bgVideo.src = data.bgVideoSrc;  // Set video source from JSON data
                 bgVideo.autoplay = true;
                 bgVideo.loop = true;
-                bgVideo.muted = false;
+                bgVideo.muted = true;
                 bgVideo.playsInline = true; // For mobile support
                 mainContent.appendChild(bgVideo);
                 
