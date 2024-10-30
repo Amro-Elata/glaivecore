@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bgVideo.src = data.bgVideoSrc;  // Set video source from JSON data
                 bgVideo.autoplay = true;
                 bgVideo.loop = true;
-                bgVideo.muted = false;
+                bgVideo.muted = true;
                 bgVideo.playsInline = true; // For mobile support
                 mainContent.appendChild(bgVideo);
                 
@@ -57,7 +57,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     introDivTitle = document.createElement("h1");
                     introDivTitle.className = "introDivTitle";
                     introDivTitle.textContent = data.introTitle
-                    introDiv.appendChild(introDivTitle)
+                    introDiv.appendChild(introDivTitle);
+
+                    introDivDescription = document.createElement("h2");
+                    introDivDescription.className = "introDivDescription";
+                    introDivDescription.textContent = data.introDescription;
+                    introDiv.appendChild(introDivDescription);
 
                 //section One
                 const sectionOne = document.createElement("div");

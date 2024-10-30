@@ -40,6 +40,10 @@ html, body {
     font-family:'Times New Roman';
     padding-left: 2%;
     margin-top: 50px;
+    text-shadow:-3px -1px 0 black,
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;;
 }
 
 .navbar{
@@ -83,6 +87,12 @@ html, body {
     padding: 0.5;
 }
 
+.navItemList li a:hover{
+    text-decoration:underline;
+    color: #fff;
+    padding: 0.5;
+}
+
 .bgVideo { 
     position: fixed;
     top: 0;
@@ -101,26 +111,39 @@ html, body {
 
 .introDiv {
     display: flex;
+    flex-direction: column;  /* Stacks child elements vertically */
     align-items: center;
-    justify-content: center; /* Centers horizontally */
-    position: relative;      /* Needed for vertical centering with top */
+    justify-content: center;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centers vertically and horizontally */
     width: 100%;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .introDivTitle {
     text-align: center;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
     font-style: italic;
     font-size: 6rem;
-    text-shadow:-3px -1px 0 black,
-                1px -1px 0 black,
+    text-shadow: -3px -1px 0 black,
+                 1px -1px 0 black,
                 -1px  1px 0 black,
-                1px  1px 0 black;;
+                 1px  1px 0 black;
 }
+
+.introDivDescription {
+    text-align: center;
+    margin-top: 20px; /* Adds space between title and description */
+    font-style: italic;
+    background-color: rgba(0, 4, 34, 0.5);
+    font-size: 2rem;
+    font-weight: 400;
+    width: 60%;
+    line-height: 140%;
+}
+
 
 
 

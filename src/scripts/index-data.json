@@ -4,16 +4,15 @@
         { "text": "Twitter", "href": "https://x.com/glaive" },
         { "text": "Instagram", "href": "https://www.instagram.com/1glaive/" },
         { "text": "Youtube", "href": "https://www.youtube.com/@glaive9942" },
-        { "text": "Glaive Hub", "href": "#" },
+        { "text": "Glaive Shop", "href": "https://shop.glaivemusic.com" },
         { "text": "Soundcloud", "href": "#" },
         { "text": "Soundcloud (Ovine Hall)", "href": "#" }
     ],
     "bgVideoSrc": "./assets/video/background.mp4",
-    "footerDescription": "This is the footer, meow",
 
 
-    "introTitle": "Are you a twink?",
-
+    "introTitle": "Welcome to glaivecore",
+    "introDescription": "Glaive is an American musician known for his genre-blending style that merges hyperpop, emo, and alternative pop. Rising to popularity through platforms like SoundCloud and TikTok, he became recognized for his raw, emotionally charged lyrics and distinct production style, often characterized by layered vocals and energetic beats. Glaive's music frequently explores themes of teenage angst, love, and personal struggle, resonating with young audiences. Despite his relatively young age, he’s gained a dedicated following and collaborated with prominent artists in the hyperpop and alternative music scenes. - Scroll Down For More ↓",
 
 
     "imgOneSrc": "./assets/mayitneverfalterimg.png",
